@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C6648F84-EB40-4963-9753-10880BC856D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile.Utils.Portable", "Core\Mobile.Utils.Portable\Mobile.Utils.Portable.csproj", "{502C0CAA-31C1-478F-878A-7002D76FE461}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platform", "Platform", "{A7A20C2A-3409-45E6-B542-AD2AB7E9E63A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile.Utils.Droid", "Platform\Mobile.Utils.Droid\Mobile.Utils.Droid.csproj", "{FD6905A1-0D75-4187-BAA0-5DDD03E9B346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile.Utils.iOS", "Platform\Mobile.Utils.iOS\Mobile.Utils.iOS.csproj", "{72B38D4A-74D3-4741-91A3-22D85D84EFB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{CD94D7CA-F593-4C85-9D98-5CFFB8C3EBDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{502C0CAA-31C1-478F-878A-7002D76FE461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502C0CAA-31C1-478F-878A-7002D76FE461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502C0CAA-31C1-478F-878A-7002D76FE461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502C0CAA-31C1-478F-878A-7002D76FE461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B38D4A-74D3-4741-91A3-22D85D84EFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B38D4A-74D3-4741-91A3-22D85D84EFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B38D4A-74D3-4741-91A3-22D85D84EFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B38D4A-74D3-4741-91A3-22D85D84EFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD6905A1-0D75-4187-BAA0-5DDD03E9B346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD6905A1-0D75-4187-BAA0-5DDD03E9B346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD6905A1-0D75-4187-BAA0-5DDD03E9B346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD6905A1-0D75-4187-BAA0-5DDD03E9B346}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{502C0CAA-31C1-478F-878A-7002D76FE461} = {C6648F84-EB40-4963-9753-10880BC856D1}
+		{FD6905A1-0D75-4187-BAA0-5DDD03E9B346} = {A7A20C2A-3409-45E6-B542-AD2AB7E9E63A}
+		{72B38D4A-74D3-4741-91A3-22D85D84EFB8} = {A7A20C2A-3409-45E6-B542-AD2AB7E9E63A}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Core\Mobile.Utils.Portable\Mobile.Utils.Portable.csproj
+	EndGlobalSection
+EndGlobal

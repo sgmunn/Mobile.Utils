@@ -3,3 +3,6 @@ Core/Mobile.Utils.Portable/obj
 Platform/Mobile.Utils.Droid/bin
 Platform/Mobile.Utils.Droid/obj
 Platform/Mobile.Utils.iOS/bin
+UnitTests/Mobile.Utils.UnitTests.iOS/bin
+UnitTests/TestRunner.iOS/bin
+UnitTests/TestRunner.iOS/obj

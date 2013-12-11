@@ -64,7 +64,4 @@
     <Folder Include="Reflection\" />
     <Folder Include="Diagnostics\" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="_Notes.txt" />
-  </ItemGroup>
 </Project>

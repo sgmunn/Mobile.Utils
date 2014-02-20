@@ -47,6 +47,7 @@
     <Compile Include="Tasks\UIThreadScheduler.cs" />
     <Compile Include="Diagnostics\ConsoleLog.cs" />
     <Compile Include="StateBundleExtensions.cs" />
+    <Compile Include="AssetUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

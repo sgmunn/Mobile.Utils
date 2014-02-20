@@ -121,6 +121,6 @@ Global
 		{371D6E44-E499-4136-A871-A5EA5260A209} = {A5FC699A-92CA-440B-8BBF-334AC5940E5D}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Core\Mobile.Utils.Portable\Mobile.Utils.Portable.csproj
+		StartupItem = Platform\Mobile.Utils.iOS\Mobile.Utils.iOS.csproj
 	EndGlobalSection
 EndGlobal

@@ -57,6 +57,7 @@
     <Compile Include="Reflection\IPropertyAccessor.cs" />
     <Compile Include="Reflection\ReflectionPropertyAccessor.cs" />
     <Compile Include="Reflection\DelegatePropertyAccessor.cs" />
+    <Compile Include="ListExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>

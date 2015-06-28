@@ -120,7 +120,4 @@ Global
 		{A888648D-50BE-4075-B863-DFA835FD06BA} = {CD94D7CA-F593-4C85-9D98-5CFFB8C3EBDE}
 		{371D6E44-E499-4136-A871-A5EA5260A209} = {A5FC699A-92CA-440B-8BBF-334AC5940E5D}
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Platform\Mobile.Utils.iOS\Mobile.Utils.iOS.csproj
-	EndGlobalSection
 EndGlobal

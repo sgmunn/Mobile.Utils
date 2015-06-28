@@ -8,11 +8,11 @@ namespace Mobile.Utils.Tasks
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
-    using MonoTouch.Foundation;
+    using Foundation;
 
     public class UIThreadScheduler : NSRunLoopScheduler
     {
-        protected override void QueueAction (NSAction action)
+        protected override void QueueAction (Action action)
         {
             _runLoop.BeginInvokeOnMainThread (action);
         }
@@ -60,7 +60,7 @@ namespace Mobile.Utils.Tasks
             }
         }
 
-        protected virtual void QueueAction (NSAction action)
+        protected virtual void QueueAction (Action action)
         {
             throw new NotImplementedException ("NSRunLoopScheduler doesn't work yet");
         }

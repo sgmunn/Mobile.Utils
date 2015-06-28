@@ -25,7 +25,7 @@ namespace Mobile.Utils
     using System.Linq;
     using System.Runtime.Serialization.Formatters.Binary;
     using System.IO;
-    using MonoTouch.Foundation;
+    using Foundation;
 
     public static class StateBundleExtensions
     {
@@ -70,7 +70,7 @@ namespace Mobile.Utils
                     {
                         var bytes = new List<byte>();
 
-                        for (int i = 0; i < byteArray.Count; i++)
+                        for (nuint i = 0; i < byteArray.Count; i++)
                         {
                             var v = byteArray.GetItem<NSNumber>(i);
                             bytes.Add(v.ByteValue);

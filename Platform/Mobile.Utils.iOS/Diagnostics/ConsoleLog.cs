@@ -32,25 +32,25 @@ namespace Mobile.Utils.Diagnostics
 
         public void Write(string message)
         {
-            Console.Write(message);
+			Console.WriteLine(message);
         }
 
         public void Write(string message, params object[] args)
         {
-            Console.Write(message, args);
+			Console.WriteLine(message, args);
         }
 
         public void Debug(string message)
         {
             #if DEBUG
-            Console.Write(message);
+			Console.WriteLine(message);
             #endif
         }
 
         public void Debug(string message, params object[] args)
         {
             #if DEBUG
-            Console.Write(message, args);
+			Console.WriteLine(message, args);
             #endif
         }
     }
